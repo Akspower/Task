@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-zinc-900 text-white min-h-screen flex items-center justify-center p-10">
+    <div class="main w-full max-w-4xl bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg shadow-lg p-10 transform transition-transform hover:scale-105 duration-300">
+        <a class="text-blue-300 inline-block mb-8 text-lg hover:text-white transition duration-300" href="/">← Go back to home</a>
+        <h1 class="text-4xl font-bold tracking-tighter mb-6 text-white animate-bounce"><%= filename %></h1>
+        <p class="text-xl leading-relaxed text-zinc-200"><%= filedata %></p>
+    </div>
+</body>
+
+</html>
